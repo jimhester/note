@@ -10,3 +10,5 @@ ByteCompile: true
 RoxygenNote: 6.0.1
 Depends: 
     audio
+Url: https://github.com/jimhester/note
+BugReports: https://github.com/jimhester/note/issues
