@@ -12,3 +12,6 @@ Depends:
     audio
 Url: https://github.com/jimhester/note
 BugReports: https://github.com/jimhester/note/issues
+Suggests: 
+    covr,
+    testthat

@@ -26,6 +26,18 @@ calc_multiplier <- function(rate) {
   2 * pi / rate
 }
 
+#' Plays musical notes
+#'
+#' @param note letter of a musical note (Bb)
+#' @param length note length (1/2)
+#' @param octave above and below middle C (-1)
+#' @param volume volume between 1 - 10
+#'
+#' @return note object
+#' @export
+#'
+#' @examples
+#' note("Bb", 1/2, -1, 3)
 note <- function(note, length = 1, octave = 0, volume = default_volume) {
   frequency <- calc_frequency(note, octave)
   volume <- calc_volume(volume)

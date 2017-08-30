@@ -1,4 +1,5 @@
 # note
+[![Travis build status](https://travis-ci.org/jimhester/note.svg?branch=master)](https://travis-ci.org/jimhester/note)
 
 The goal of note is to play music
 
